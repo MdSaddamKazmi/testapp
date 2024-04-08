@@ -1,0 +1,17 @@
+{
+  "scopes": [],
+  "attributes": [],
+  "role-templates": [],
+  "oauth2-configuration": {
+    "token-validity": 3600,
+    "redirect-uris": [
+      "http://localhost:5000/**",
+      "http://localhost:4004/**",
+      "https://*.*.applicationstudio.cloud.sap/**",
+      "https://*.us10-001.hana.ondemand.com",
+      "https://*.us10-001.hana.ondemand.com/login/callback",
+      "https://*.cfapps.*.hana.ondemand.com/**",
+      "https://*.authentication.*.hana.ondemand.com/**"
+    ]
+  }
+}
